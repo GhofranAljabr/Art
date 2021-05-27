@@ -1,0 +1,1 @@
+VAR person = PROMPT('ENTER YOUR NAME')
