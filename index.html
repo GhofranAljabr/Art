@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Art </title>
+  
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -18,7 +20,7 @@
   </heder>
  <main>
    <section>
-     <h3>
+     <h3
        Welcome to my website
      </h3>
      <p>
@@ -28,15 +30,76 @@
 
    </section>
    <section>
-    <img src="https://lh6.ggpht.com/HlgucZ0ylJAfZgusynnUwxNIgIp5htNhShF559x3dRXiuy_UdP3UQVLYW6c=s1200"/>
-    <img src="https://www.theartstory.org/images20/hero/profile/van_gogh_vincent_525.jpg"/>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRniIjToc1jehadqeG9OF12QmRsrW2Q2NX95A&usqp=CAU"/>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1aAT4mSRCxdm3GaLyGmDuYFojYvc101jS-w&usqp=CAU"/>
+    
+
    </section>
  </main>
  <footer>
    <p>copy right 2021</p>
  </footer>
- 
+ <script>
+var userName = prompt("whats your name ?")
+while(userName.length === 0){
+var userName = prompt("whats your name ?")
+}
+alert('Welcome  to my website')
+
+confirm('do you Want to continue')   
+
+var favoriteArtist = prompt('who do you like more Vincent Van Gogh or Leonardo da Vinci');
+
+while((favoriteArtist !=='Vincent Van Gogh')&&(favoriteArtist !=='Leonardo da Vinci')){
+  favoriteArtist = prompt('please only with Vincent Van Gogh or Leonardo da Vinci');
+  console.log(favoriteArtist)
+}
+if(favoriteArtist==='Vincent Van Gogh'){
+  document.write(' <img src="https://imgy.pro/veto/475x296/3997444.jpg"<br >')
+  document.write(' <img src="https://lh6.ggpht.com/HlgucZ0ylJAfZgusynnUwxNIgIp5htNhShF559x3dRXiuy_UdP3UQVLYW6c=s1200"<br >')
+  document.write(' <img src="https://www.theartstory.org/images20/hero/profile/van_gogh_vincent_525.jpg"<br >')
+  document.write(' <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRniIjToc1jehadqeG9OF12QmRsrW2Q2NX95A&usqp=CAU"<br >')
+  document.write(' <img src="https://ar.painting-planet.com/images/image265_0.jpg"<br >')
+
+}
+if(favoriteArtist==='Leonardo da Vinci'){
+  document.write(' <img src="https://i.natgeofe.com/n/37c3c776-b8cb-4be1-988a-cf593c776b88/01-leonardo-da-vinci-book-talk.jpg?w=636&h=763"<br >')
+  document.write(' <img src="https://cdn.europosters.eu/image/750/leonardo-da-vinci-mona-lisa-i96620.jpg"<br >')
+  document.write(' <img src="https://i.pinimg.com/originals/d2/2b/7b/d22b7b3ac58b96278895817ccbfd9b8b.jpg"<br >')
+  document.write(' <img src="https://personaenlaibero.files.wordpress.com/2014/10/lastsupper.jpg?w=767"<br >')
+  document.write(' <img src="https://www.kunstkopie.de/kunst/leonardo_da_vinci/engel-mit-violine.jpg"<br >')
+}
+
+// }
+// var getFavoriteArtist = function () {
+//   while (favoriteArtist!=='Vincent Van Gogh' && favoriteArtist !=='Leonardo da Vinci') {favoriteArtist = prompt('please only with Vincent Van Gogh or Leonardo da Vinci');
+//   } return favoriteArtist;
+
+// 
+
+
+
+
+
+
+var Artist = prompt('how many favorite Artist do you like');
+
+if (Artist > 0) {
+  // Artist = 2;
+document.write('<br><b>you liked');
+for (var i = 0; i < Artist;i++) {
+document.write(' <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Johannes_Vermeer_%281632-1675%29_-_The_Girl_With_The_Pearl_Earring_%281665%29.jpg"<br >');
+}
+
+}
+
+
+// document.write(getArtistNum());
+document.write('<br >your favorite Artist is '+getfavorite());
+//document.write('<b>Artist')
+document.write('</section>');
+
+document.write('Artist');
+ </script>
+
+
 </body>
 </html>
