@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 if (condition) {
   // block of code to be executed if the condition is true
 }
@@ -10,3 +11,5 @@ if (Artist > 3) { Artist = 3;
 }
 for (var i = 0; i < Artist;i++) { Artist = 0;
 Artist += document.write('https://imgy.pro/veto/475x296/3997444.jpg'); }
+=======
+>>>>>>> de48fa9585c919a23fa2cf17866d4578efb51f04
